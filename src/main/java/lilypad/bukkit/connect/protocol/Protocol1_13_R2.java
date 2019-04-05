@@ -39,7 +39,7 @@ public class Protocol1_13_R2 implements IProtocol {
 
 	@Override
 	public String getLoginNettyInjectHandlerNetworkManager() {
-		return "l";
+		return "socketAddress";
 	}
 
 }

@@ -1,5 +1,5 @@
 name: LilyPad-Connect
-version: ${build.number}
+version: 1.13.2
 description: LilyPad
 
 author: LilyPad
@@ -7,4 +7,4 @@ website: http://www.lilypadmc.org/
 
 load: STARTUP
 loadbefore: [ProtocolLib, ProtocolSupport]
-main: ${main.class}
+main: lilypad.bukkit.connect.ConnectPlugin
